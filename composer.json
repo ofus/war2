@@ -1,0 +1,17 @@
+{
+    "name": "ofus/war2",
+    "description": "simulation of 2-player card game ",
+    "authors": [
+        {
+            "name": "Andrew L. Joseph",
+            "email": "andrew@aljweb.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-4": {"Acme\\": "src/"}
+    }
+}
