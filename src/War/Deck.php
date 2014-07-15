@@ -5,9 +5,13 @@
 
 namespace War;
 
+/**
+ * Class Deck
+ * @package War
+ */
 class Deck
 {
-    /** @var Array  */
+    /** @var int[] */
     protected $cards;
 
     /**
@@ -35,6 +39,7 @@ class Deck
     }
 
     /**
+     * Return the cards
      * @return array
      */
     public function getCards()

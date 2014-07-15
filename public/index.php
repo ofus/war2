@@ -10,11 +10,12 @@ if (file_exists(__DIR__ . '/../vendor/autoload.php')) {
 }
 
 use War\Game;
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <title>War</title>
 </head>
 <body>
@@ -22,7 +23,7 @@ use War\Game;
     <comment>
         Personal note: This is only written in PHP because the original
         requirements for the project stipulated use of PHP, for proof of
-        concept.  In the real world this should be written in something
+        concept. In the real world this should be written in something
         like C++ obviously :)
     </comment>
 <pre>
@@ -44,12 +45,13 @@ use War\Game;
  */
 </pre>
 
-<div>
-    <h1>Codexorz</h1>
-    <p>
-        <a href="https://github.com/ofus/war2">https://github.com/ofus/war2</a>
-    </p>
-</div>
+    <div>
+        <h1>Codexorz</h1>
+
+        <p>
+            <a href="https://github.com/ofus/war2">https://github.com/ofus/war2</a>
+        </p>
+    </div>
 
     <h1>Output</h1>
     <pre>
@@ -57,7 +59,7 @@ use War\Game;
 
     $game = new Game();
     echo "Begin!\n";
-    for(;;) {
+    for (; ;) {
         $game->doRound();
         echo $game->getLog();
     }

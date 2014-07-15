@@ -219,8 +219,8 @@ class Game
         return $values[$value];
     }
 
-    /** Get the values used for converting internally stored card value to displayed value
-     * format
+    /** Get the values used for converting internally stored card value to displayed
+     * value format.
      * note: a deuce or a "2" is stored as a 0 internally, a "3" as a 1, etc
      * @param bool $compact should array be compact or full text
      * @return array card output values
